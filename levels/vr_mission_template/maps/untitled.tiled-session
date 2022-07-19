@@ -1,0 +1,49 @@
+{
+    "activeFile": "default.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Codes Playground/Twilio Quest/Twilioquest Extension/.bundled/tilesets/TwilioQuestNPCs.json": {
+            "scaleInDock": 1
+        },
+        "C:/Codes Playground/Twilio Quest/Twilioquest Extension/.bundled/tilesets/TwilioQuestObjects.json": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Codes Playground/Twilio Quest/Twilioquest Extension/TwilioQuest-TrialTested/tilesets/MyCustomObjects.json": {
+            "scaleInDock": 1
+        },
+        "default.json": {
+            "scale": 1.0712239583333334,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384.1400267412179,
+                "y": 384.14002674121787
+            }
+        },
+        "default.json#TwilioQuestTileset": {
+            "scaleInDock": 1
+        },
+        "space_garden.json": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 301.5,
+                "y": 288.83333333333337
+            }
+        },
+        "space_garden.json#TwilioQuestTileset": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+        "default.json"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "default.json",
+        "space_garden.json"
+    ]
+}
