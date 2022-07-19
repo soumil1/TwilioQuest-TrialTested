@@ -13,6 +13,18 @@
       "type": "text",
       "placeholder": "type your answer here",
       "label": "What is 2 + 2? Write the numerical response below."
+    },
+    {
+      "name": "answer3",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Is it free to use Twilio?"
+    },
+    {
+      "name": "answer4",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Are you enjoying this Quest?"
     }
   ],
   "rewards": {

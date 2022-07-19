@@ -1,6 +1,6 @@
 {
-  "title": "VR Mission Template",
-  "description": "This is an example of how to create a 'training mission' for the VR training environment aboard the Fog Owl!",
+  "title": "TriedTested",
+  "description": "TriedTested is a social network for people who want to try new things and share their results.",
   "questTitle": "Virtual Reality Training",
   "questDescription": "Example level for VR training. See what's possible!",
   "mission_icon": "mission_icon.png",
