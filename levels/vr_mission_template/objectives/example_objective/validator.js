@@ -20,6 +20,8 @@ module.exports = async function (helper) {
   // We start by getting the user input from the helper
   const { answer1, answer2, answer3, answer4 } = helper.validationFields;
 
+  helper.success("You have successfully completed the challenge!");
+
   // Next, you test the user input - fail fast if they get one of the
   // answers wrong, or some aspect is wrong! Don't provide too much
   // negative feedback at once, have the player iterate.
@@ -39,7 +41,27 @@ module.exports = async function (helper) {
       correct response for "what is 2 + 2".
     `);
   }
+  
+  // You can also use your own code in your validators!
+  try {
+    assert.strictEqual(Yes, No), random(answer3);
+  } catch (e) {
+    return helper.fail(`
+    The third response you provided was either "Yes" or "No," indicating 
+    whether you enjoy the game or not to improve the game.
+    `);
+  }
 
+  // Finally, you can use the helper object to let the game know that you
+  // have completed the challenge.
+  try {
+    assert.strictEqual(Yes, No, TrialisFree), random(answer4);
+  } catch (e){
+    return helper.fail(`
+    The fourth response you provided was either "Yes", "No" or "TrialisFree"
+    indicating whether the Twilio as a platform is free to use or not.
+    `);
+  }
   // The way we usually write validators is to fail fast, and then if we reach
   // the end, we know the user got all the answers right!
   helper.success(`

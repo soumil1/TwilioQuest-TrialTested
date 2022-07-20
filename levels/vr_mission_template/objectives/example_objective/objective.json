@@ -18,16 +18,17 @@
       "name": "answer3",
       "type": "text",
       "placeholder": "type your answer here",
-      "label": "Is it free to use Twilio?"
+      "label": "Did you like the TwilioQuest game"
     },
     {
       "name": "answer4",
       "type": "text",
       "placeholder": "type your answer here",
-      "label": "Are you enjoying this Quest?"
+      "label": "Is it free to use Twilio?"
     }
   ],
   "rewards": {
-    "xp": 100
+    "xp": 100,
+    "items": [["item1", 1], ["item2", 2], ["item3", 3], ["item4", 4]]
   }
 }
